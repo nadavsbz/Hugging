@@ -8,7 +8,7 @@
   "routes": [
     {
       "src": "/api/edit",
-      "dest": "api/edit.js"
+      "dest": "/api/edit.js"
     }
   ]
 }
