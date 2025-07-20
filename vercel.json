@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "api/edit.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/edit",
+      "dest": "api/edit.js"
+    }
+  ]
+}
