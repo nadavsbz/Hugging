@@ -1,14 +1,14 @@
 {
   "version": 2,
   "functions": {
-    "api/edit.js": {
-      "runtime": "nodejs18.x"
+    "api/**/*.js": {
+      "runtime": "vercel/node@20"
     }
   },
   "routes": [
     {
-      "src": "/api/edit",
-      "dest": "/api/edit.js"
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
     }
   ]
 }
